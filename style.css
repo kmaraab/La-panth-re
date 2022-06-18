@@ -362,6 +362,23 @@ a:hover {
     z-index: 2;
 }
 
+.avis-client{
+    width: 83%;
+    margin: auto;
+    text-transform: initial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.avis-client + span {
+    font-size: 18px;
+}
+
+.presentation{
+    width: 83%;
+    margin: auto;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -677,7 +694,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -714,7 +731,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -1040,4 +1057,14 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/**********MES MODIFS*************/
+.titreSectionNosrealisation{
+    width: 80%;
+    margin: auto;
+    text-transform: initial;
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
 }
