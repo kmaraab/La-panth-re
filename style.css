@@ -362,23 +362,6 @@ a:hover {
     z-index: 2;
 }
 
-.avis-client{
-    width: 83%;
-    margin: auto;
-    text-transform: initial;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.avis-client + span {
-    font-size: 18px;
-}
-
-.presentation{
-    width: 83%;
-    margin: auto;
-}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -668,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -840,14 +823,14 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    }image-de-presentation
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -1061,10 +1044,31 @@ h4 {
 
 /**********MES MODIFS*************/
 .titreSectionNosrealisation{
-    width: 80%;
+    width: 95%;
     margin: auto;
     text-transform: initial;
     font-weight: bold;
-    font-size: 22px;
-    color: red;
+    font-size: 19px;
+}
+
+.avis-client{
+    width: 90%;
+    margin: auto;
+    text-transform: initial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.avis-client + span {
+    font-size: 17px;
+}
+
+.presentation{
+    width: 83%;
+    margin: auto;
+}
+
+.sizeText{
+    font-size: 19px;
 }
